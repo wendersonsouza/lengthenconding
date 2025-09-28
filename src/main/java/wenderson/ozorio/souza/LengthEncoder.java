@@ -23,7 +23,7 @@ public class LengthEncoder {
             listDistinct.forEach(entry -> {
                 stringBuilder.append(entry).append(totalMatching(entry, list));
             });
-            System.out.println(text + " " + list.size());
+            System.out.println(text + " Total " + list.size());
             System.out.println(text + " Distinct " + listDistinct.size());
         }else{
             stringBuilder.append("Text is empty or null");
